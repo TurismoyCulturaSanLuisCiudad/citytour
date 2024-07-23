@@ -82,6 +82,10 @@ function openGallery() {
     showSlide(currentSlideIndex);
 }
 
+function closeCard() {
+    document.getElementById('card').style.display = "none";
+}
+
 function closeGalleryCard() {
     document.getElementById('gallery-card').style.display = 'none';
     document.getElementById('card').style.display = 'block';
