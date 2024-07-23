@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Turístico de San Luis</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="gradient">
+    <div>
+        <img class="izq" src="images/logo.png" >
+        <h1 style="color:#ffffff">Mapa Turísco de la ciudad de San Luis</h1>
+    </div>
+    
+    <div id="map"></div>
+
+    <!-- Card Principal -->
+    <div id="card" class="card">
+        <img id="card-image" src="" alt="" />
+        <h2 id="card-title"></h2>
+        <p id="card-description"></p>
+        <audio id="card-audio" controls></audio>
+        <a id="gallery-link" href="#" onclick="openGallery()">Ver galería de fotos antiguas</a>
+    </div>
+
+    <!-- Card para Galería de Imágenes -->
+    <div id="gallery-card" class="card">
+        <button class="close-gallery" onclick="closeGalleryCard()">X</button>
+        <h2 style="color:#ffffff">Galería de Fotos Antiguas</h2>
+        <div class="carousel">
+            
+            <div class="carousel-slides">
+                <!-- Las imágenes se cargarán aquí -->
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">«</button>
+            <button class="next" onclick="moveSlide(1)">»</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
