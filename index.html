@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapa Turístico de San Luis</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 <body class="gradient">
     <div>
-        <img class="izq" src="images/logo.png" >
         <h1 style="color:#ffffff">Mapa Turístico de la ciudad de San Luis</h1>
     </div>
     
-    <div id="map"></div>
+    <div id="map">
+    </div>
+    <br>
+     
+    <div>
+        <img class="izq" src="images/logo.png" >
+    </div>
 
     <!-- Card Principal -->
     <div id="card" class="card">
@@ -38,6 +44,7 @@
             <button class="next" onclick="moveSlide(1)">»</button>
         </div>
     </div>
+    
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="script.js"></script>

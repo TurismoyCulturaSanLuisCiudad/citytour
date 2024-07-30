@@ -24,6 +24,102 @@ const puntosTuristicos = [
         galeria: "fotos/palacio_mollo",
         coordenadas: [-33.29990632492681, -66.33669587701937]
     },
+    {
+        nombre: "Plaza Pringles",
+        descripcion: "descripcion plaza pringles ",
+        audio: "audios/plaza_pringles.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/plaza_pringles",
+        coordenadas: [-33.302134615908464, -66.33684865531156]
+    },
+    {
+        nombre: "Plaza Independencia",
+        descripcion: "descripcion plaza independecia ",
+        audio: "audios/plaza_independencia.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/plaza_independencia",
+        coordenadas: [-33.30748096417144, -66.33549533413104]
+    },
+    {
+        nombre: "Municipalidad de San Luis",
+        descripcion: "descripcion Municipalidad de San Luis ",
+        audio: "audios/municipalidad.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/municipalidad",
+        coordenadas: [-33.3059063935802, -66.33643999387245]
+    },
+    {
+        nombre: "Antiguo Cuartel y Cárcel de Mujeres",
+        descripcion: "descripcion Antiguo cuartel y cárcel de mujeres",
+        audio: "audios/antiguo_cuartel.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/antiguo_cuartel",
+        coordenadas: [-33.3080554317389, -66.33479681295381]
+    },
+    {
+        nombre: "Banco Hipotecario",
+        descripcion: "descripcion Banco Hipotecario",
+        audio: "audios/banco_hipotecario.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/banco_hipotecario",
+        coordenadas: [-33.30118329867334, -66.33629335956732]
+    },
+    {
+        nombre: "Centro artesanal Juan Martín de Porres",
+        descripcion: "descripcion Juan Martín de Porres",
+        audio: "audios/juan_martin_de_porres.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/juan_martin_de_porres",
+        coordenadas: [-33.308110739229214, -66.33532042910197]
+    },
+    {
+        nombre: "Honorable Consejo Deliberante",
+        descripcion: "descripcion Consejo Deliberante",
+        audio: "audios/consejo_deliberante.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/consejo_deliberante",
+        coordenadas: [-33.30438475976518, -66.33418427126456]
+    },
+    {
+        nombre: "Templo de Santo Domingo",
+        descripcion: "descripcion Templo de Santo Domingo",
+        audio: "audios/templo_de_santo_domingo.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/templo_santo_domingo",
+        coordenadas: [-33.30821135628458, -66.3357699933464]
+    },
+    {
+        nombre: "Ex estación de trenes",
+        descripcion: "descripcion Ex estación de trenes",
+        audio: "audios/ex_estación_de_trenes.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/ex_estación_de_trenes",
+        coordenadas: [-33.29918799501542, -66.34842224598148]
+    },
+    {
+        nombre: "Ex Casa de Gobierno",
+        descripcion: "descripcion Ex Casa de Gobierno",
+        audio: "audios/ex_casa_de_gobierno.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/ex_casa_de_gobierno",
+        coordenadas: [-33.306766192166705, -66.3354981708698]
+    },
+    {
+        nombre: "Paseo del Padre",
+        descripcion: "descripcion Paseo del padre",
+        audio: "audios/paseo_del_padre.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/paseo_del_padre",
+        coordenadas: [-33.30064748943708, -66.3357412855097]
+    },
+    {
+        nombre: "Ex Solar del Cabildo",
+        descripcion: "descripcion Ex solar del cabildo",
+        audio: "audios/solar_del_cabildo.mp3",
+        imagen: "images/Encabezado.png",
+        galeria: "fotos/solar_del_cabildo",
+        coordenadas: [-33.307315095186866, -66.33634598622118]
+    }
 ];
 
 // Añadir marcadores numerados y eventos para los puntos turísticos
@@ -65,7 +161,8 @@ function openGallery() {
     // Cargar las imágenes en el carrusel
     const imageList = {
         'fotos/iglesia_catedral': ['foto1.jpg', 'foto2.jpg', 'foto3.jpg', 'foto4.jpg','foto5.jpg', 'foto6.jpg', 'foto7.jpg', 'foto8.jpg','foto9.jpg', 'foto10.jpg','foto11.jpg', 'foto12.jpg', 'foto13.jpg', 'foto14.jpg','foto15.jpg', 'foto16.jpg', 'foto17.jpg', 'foto18.jpg','foto19.jpg', 'foto20.jpg','foto21.jpg', 'foto22.jpg', 'foto23.jpg', 'foto24.jpg','foto25.jpg', 'foto26.jpg', 'foto27.jpg', 'foto28.jpg','foto29.jpg', 'foto30.jpg'],
-        'fotos/palacio_mollo': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png', 'foto6.png'] // Puedes añadir más listas según tus carpetas
+        'fotos/palacio_mollo': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png', 'foto6.png'],
+        'fotos/templo_santo_domingo': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'] // Puedes añadir más listas según tus carpetas
     };
     const images = imageList[galleryPath]  // Cambia estos nombres según tus archivos
     images.forEach(img => {
