@@ -54,6 +54,7 @@ h1 {
 .card h2 {
     margin-top: 0;
     color: rgba(0,57,116);
+    text-align: center;
 }
 
 .card p {
