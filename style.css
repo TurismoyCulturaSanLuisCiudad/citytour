@@ -93,7 +93,7 @@ scroll-container {
 #gallery-card {
     display: none;
     position: fixed;
-    top: 280px;
+    top: 400px;
     left: 50%;
     transform: translateX(-50%);
     background:rgba(0,56,115,1);
