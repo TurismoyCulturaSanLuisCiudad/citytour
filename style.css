@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(90deg, rgba(115,191,65,1) 35%, rgba(0,56,115,1) 100%);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Baloo 2','Lato', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,7 +8,9 @@ body {
     align-items: center;
 }
 h1 {
-    font-family: sans-serif;
+    font-family: 'Baloo 2', bold;
+    text-align: center;
+    width: 80%;
   }
 
 .izq {
@@ -17,6 +19,7 @@ h1 {
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
+    margin-right: 20px;
   }
 
 #map {
