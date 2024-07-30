@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(-45deg, rgba(0,57,116) 10%, rgba(144,191,68) 100%);
+    background: linear-gradient(135deg, rgba(144,191,68) 35%, rgba(0,57,116) 100%);
     font-family: 'Baloo 2','Lato', sans-serif;
     margin: 0;
     padding: 0;
@@ -45,7 +45,7 @@ h1 {
 }
 
 .card img {
-    width:100%;
+    width:40%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -53,11 +53,14 @@ h1 {
 
 .card h2 {
     margin-top: 0;
+    color: rgba(0,57,116);
 }
 
 .card p {
     margin: 0;
     text-align: justify;
+    color: rgba(0,57,116);
+
 }
 
 
