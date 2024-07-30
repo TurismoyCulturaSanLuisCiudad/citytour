@@ -128,7 +128,7 @@ puntosTuristicos.forEach((punto, index) => {
         icon: L.divIcon({
             className: 'custom-div-icon',
             
-            html: `<div style="color: white;background: linear-gradient(90deg, rgba(115,191,65,1) 35%, rgba(0,56,115,1) 100%);border-radius: 50%;width: 40px;height: 40px;display: flex;align-items: center;justify-content: center;font-size: 16px;font-weight: bold;line-height: 1;" class="number-icon">${index + 1}</div>`,
+            html: `<div style="color: white;background: rgba(0,57,116);border-radius: 50%;width: 40px;height: 40px;display: flex;align-items: center;justify-content: center;font-size: 16px;font-weight: bold;line-height: 1;" class="number-icon">${index + 1}</div>`,
             iconSize: [30, 42],
             iconAnchor: [15, 42]
         })
