@@ -82,7 +82,7 @@ const puntosTuristicos = [
     },
     {
         nombre: "Templo de Santo Domingo",
-        descripcion: "descripcion Templo de Santo Domingo",
+        descripcion: "En 1691 el Gobernador Marín de Poveda entregó la manzana a la Orden de los Dominicos. Allí se fundó la primera escuela de San Luis, denominada Escuela del Rey y, desde 1810, llamada Escuela de la Patria.\n\nEl primer santuario se derrumbó hacia 1811 Hacia 1836, el gobernador José Gregorio Calderón y el Padre Fray Hilarión de Etura emprenden la construcción de uno nuevo.\n\nEn el piso del templo fueron sepultados el gobernador José Gregorio Calderón, su esposa y la esposa del constructor, otros vecinos destacados y el Obispo de Cuyo, Fray Nicolás Aldazor.\n\nEn 1868, Amado Cousinet construye la espadaña durante la gobernación de Justo Daract. Hacia 1875 se le adosan habitaciones posteriores en la pared sur para reforzar el edificio luego de un terremoto.\n\nEntre 1903 y 1907, el templo fue remodelado por Carlos Deluigi. Se levantaron los techos, se les puso madera dura, ladrillo cocido y tejas en el exterior, también falsas columnas y cornisas en el interior y se agregaron dos campanas a la espadaña.\n\nEn 1930, los dominicos españoles proponen construir una nueva iglesia de estilo árabe granadino. Para realzar el nuevo edificio, en 1940 se demolió la espadaña y la parte delantera del viejo templo. El Gobernador Toribio Mendoza (h) logró adquirir para el gobierno provincial el edificio ya desacralizado, con la intención de crear un museo de arte religioso.",
         audio: "audios/templo_de_santo_domingo.mp3",
         imagen: "images/Encabezado.png",
         galeria: "fotos/templo_santo_domingo",
