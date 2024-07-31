@@ -165,7 +165,8 @@ function openGallery() {
         'fotos/templo_santo_domingo': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'],
         'fotos/plaza_pringles': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png','foto6.png'],
         'fotos/plaza_independencia': ['foto1.png', 'foto2.png'],
-        'fotos/paseo_del_padre': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'],   // Puedes añadir más listas según tus carpetas
+        'fotos/paseo_del_padre': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'],
+        'fotos/municipalidad': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png']    // Puedes añadir más listas según tus carpetas
     };
     const images = imageList[galleryPath]  // Cambia estos nombres según tus archivos
     images.forEach(img => {
