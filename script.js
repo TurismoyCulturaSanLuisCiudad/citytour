@@ -73,7 +73,7 @@ const puntosTuristicos = [
         coordenadas: [-33.308110739229214, -66.33532042910197]
     },
     {
-        nombre: "Honorable Consejo Deliberante",
+        nombre: "Honorable Concejo Deliberante",
         descripcion: "Fue residencia del Juan A. Barbeito, quien ocupara importantes cargos públicos a mediados del siglo XIX. \n\nPrimera casa de altos construida en la provincia; la fachada cuenta con nueve ventanas y una puerta de grandes dimensiones. Se ingresa por un amplio zaguán que da acceso a distintas salas y habitaciones. La galería superior presenta un rústico envigado, de madera dura trabajada en hachuela, que sostiene el techo de la galería.\n\nLos balcones de hierro del piso superior, las rejas de las ventanas de la planta baja, los herrajes y la carpintería de madera de las aberturas son originales.\n\nEn 1991 esta casona se destinó al funcionamiento del Honorable Concejo Deliberante. ",
         audio: "audios/consejo_deliberante.mp3",
         imagen: "images/Encabezado.png",
@@ -167,7 +167,9 @@ function openGallery() {
         'fotos/plaza_independencia': ['foto1.png', 'foto2.png'],
         'fotos/paseo_del_padre': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'],
         'fotos/municipalidad': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png'],
-        'fotos/ex_estación_de_trenes': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png','foto6.png']     // Puedes añadir más listas según tus carpetas
+        'fotos/ex_estación_de_trenes': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png','foto6.png'],
+        'fotos/ex_casa_de_gobierno': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'] 
+            // Puedes añadir más listas según tus carpetas
     };
     const images = imageList[galleryPath]  // Cambia estos nombres según tus archivos
     images.forEach(img => {
