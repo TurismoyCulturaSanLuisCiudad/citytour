@@ -169,7 +169,8 @@ function openGallery() {
         'fotos/municipalidad': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png'],
         'fotos/ex_estación_de_trenes': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png','foto6.png'],
         'fotos/ex_casa_de_gobierno': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'] ,
-        'fotos/consejo_deliberante': ['foto1.png']
+        'fotos/consejo_deliberante': ['foto1.png'],
+        'fotos/banco_hipotecario': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png','foto6.png'],
             // Puedes añadir más listas según tus carpetas
     };
     const images = imageList[galleryPath]  // Cambia estos nombres según tus archivos
