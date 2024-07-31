@@ -48,14 +48,14 @@ const puntosTuristicos = [
         galeria: "fotos/municipalidad",
         coordenadas: [-33.3059063935802, -66.33643999387245]
     },
-    {
+    /*{
         nombre: "Antiguo Cuartel y Cárcel de Mujeres",
         descripcion: "En tiempos de la fundación de la ciudad, este solar era el potrero de la orden dominica. \n\nEn 1846 el gobernador Pablo Lucero ordenó construir un cuartel, para reemplazar el antiguo que se encontraba frente a la actual plaza Pringles.\n\nEste cuartel enfrentó dos días de sitio impuestos a la ciudad por el caudillo Vicente “Chacho” Peñaloza en 1862. En el año 1865, se reclutaron soldados para marchar a la Guerra contra Paraguay.\n\nEn 1879, el gobernador Toribio Mendoza mandó a construir un edificio más grande y anexar el Departamento de Policía. En 1881 se inaugura el edificio construido por Juan Robelli, que contaba con cuadra de soldados, patios para formaciones, caballerizas, sótanos, celdas y patios enrejados.",
         audio: "audios/antiguo_cuartel.mp3",
         imagen: "images/Encabezado.png",
         galeria: "fotos/antiguo_cuartel",
         coordenadas: [-33.3080554317389, -66.33479681295381]
-    },
+    },*/
     {
         nombre: "Banco Hipotecario",
         descripcion: "En 1871 existía en este solar una imponente mansión perteneciente a Víctor Lucero; reconocido político radical, que ocupó destacados puestos en el gobierno a nivel provincial y nacional y participó de la revolución radical en 1893.\n\nFue amigo personal de Sarmiento, Avellaneda, Frías, Rawson, Elizalde, Rocha, Victorino de la Plaza, Quintana y Bernardo de Irigoyen. Se alojó en su casa Domingo Faustino Sarmiento, la última vez en 1884. Julio Argentino Roca se alojó dos veces, en 1882 y en 1885, mientras que Leandro N. Alem lo hizo en 1892.\n\nEn 1939 la vivienda ya había sido demolida y en su lugar, se construyó el Banco Hipotecario Nacional.",
@@ -64,14 +64,14 @@ const puntosTuristicos = [
         galeria: "fotos/banco_hipotecario",
         coordenadas: [-33.30118329867334, -66.33629335956732]
     },
-    {
+    /*{
         nombre: "Centro artesanal Juan Martín de Porres",
         descripcion: "Fue parte del solar que la Orden Dominica utilizaba de potrero. En 1879, el gobernador Toribio Mendoza mandó a construir el Departamento de Policía y en 1881 se inaugura el edificio construido por Juan Robelli, pero en 1890 el gobernador Mauricio Orellano, temiendo un ataque, ocupó el edificio y lo designó Casa de Gobierno.\n\nEntre los años 1920 y 1930 fue sede de los Tribunales hasta que éstos tuvieron su edificio propio.\n\nSe conoce a este solar como la Ex fábrica de alfombras, porque en 1949 la fábrica fue habilitada por la firma Gobelinos. Hacia 1954, el Gobierno provincial se hizo cargo del establecimiento y le impuso el nombre “Fábrica Provincial de Alfombras” hasta 1968. La fábrica reinició sus actividades bajo la conducción de la congregación de los Padres Dominicos en el año 1974, bajo el nombre de Centro Artesanal San Martín de Porres.",
         audio: "audios/juan_martin_de_porres.mp3",
         imagen: "images/Encabezado.png",
         galeria: "fotos/juan_martin_de_porres",
         coordenadas: [-33.308110739229214, -66.33532042910197]
-    },
+    },*/
     {
         nombre: "Honorable Concejo Deliberante",
         descripcion: "Fue residencia del Juan A. Barbeito, quien ocupara importantes cargos públicos a mediados del siglo XIX. \n\nPrimera casa de altos construida en la provincia; la fachada cuenta con nueve ventanas y una puerta de grandes dimensiones. Se ingresa por un amplio zaguán que da acceso a distintas salas y habitaciones. La galería superior presenta un rústico envigado, de madera dura trabajada en hachuela, que sostiene el techo de la galería.\n\nLos balcones de hierro del piso superior, las rejas de las ventanas de la planta baja, los herrajes y la carpintería de madera de las aberturas son originales.\n\nEn 1991 esta casona se destinó al funcionamiento del Honorable Concejo Deliberante. ",
@@ -160,7 +160,7 @@ function openGallery() {
 
     // Cargar las imágenes en el carrusel
     const imageList = {
-        'fotos/iglesia_catedral': ['foto1.jpg', 'foto2.jpg', 'foto3.jpg', 'foto4.jpg','foto5.jpg', 'foto6.jpg', 'foto7.jpg', 'foto8.jpg','foto9.jpg', 'foto10.jpg','foto11.jpg', 'foto12.jpg', 'foto13.jpg', 'foto14.jpg','foto15.jpg', 'foto16.jpg', 'foto17.jpg', 'foto18.jpg','foto19.jpg', 'foto20.jpg','foto21.jpg', 'foto22.jpg', 'foto23.jpg', 'foto24.jpg','foto25.jpg', 'foto26.jpg', 'foto27.jpg', 'foto28.jpg','foto29.jpg', 'foto30.jpg'],
+        'fotos/iglesia_catedral': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png','foto6.png','foto7.png', 'foto8.png', 'foto9.png', 'foto10.png','foto11.png'],
         'fotos/palacio_mollo': ['foto1.png', 'foto2.png'],
         'fotos/templo_santo_domingo': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'],
         'fotos/plaza_pringles': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png','foto6.png'],
@@ -168,7 +168,8 @@ function openGallery() {
         'fotos/paseo_del_padre': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'],
         'fotos/municipalidad': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png'],
         'fotos/ex_estación_de_trenes': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png','foto6.png'],
-        'fotos/ex_casa_de_gobierno': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'] 
+        'fotos/ex_casa_de_gobierno': ['foto1.png', 'foto2.png', 'foto3.png', 'foto4.png','foto5.png'] ,
+        'fotos/consejo_deliberante': ['foto1.png']
             // Puedes añadir más listas según tus carpetas
     };
     const images = imageList[galleryPath]  // Cambia estos nombres según tus archivos
